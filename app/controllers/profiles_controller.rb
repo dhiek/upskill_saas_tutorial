@@ -4,7 +4,7 @@ class ProfilesController < ApplicationController
     # Render blank profile details form
     @profile = Profile.new
   end
-  
+
   # POST to /users/:user_id/profile
   def create
     # Ensure that we have the user who is filling out form
